@@ -1,4 +1,4 @@
-from palindrome import isPalindrome
+from RomanToInteger import RomanToInteger
 
-x = 0
-print(str(isPalindrome(x)))
+test = RomanToInteger()
+print(str(test.romanToInt("MCMXCIV")))
